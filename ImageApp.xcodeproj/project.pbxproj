@@ -13,6 +13,9 @@
 		0852549129CCD6D10094F52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0852548F29CCD6D10094F52B /* Main.storyboard */; };
 		0852549329CCD6D30094F52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0852549229CCD6D30094F52B /* Assets.xcassets */; };
 		0852549629CCD6D30094F52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0852549429CCD6D30094F52B /* LaunchScreen.storyboard */; };
+		0852549E29CCDBF30094F52B /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852549D29CCDBF30094F52B /* MyTableViewCell.swift */; };
+		085254A029CCDD330094F52B /* ArticleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0852549F29CCDD330094F52B /* ArticleData.swift */; };
+		085254A229CCDFA30094F52B /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085254A129CCDFA20094F52B /* NewsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0852549229CCD6D30094F52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0852549529CCD6D30094F52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0852549729CCD6D30094F52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0852549D29CCDBF30094F52B /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		0852549F29CCDD330094F52B /* ArticleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleData.swift; sourceTree = "<group>"; };
+		085254A129CCDFA20094F52B /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				0852548929CCD6D10094F52B /* AppDelegate.swift */,
 				0852548B29CCD6D10094F52B /* SceneDelegate.swift */,
+				0852549F29CCDD330094F52B /* ArticleData.swift */,
+				085254A129CCDFA20094F52B /* NewsData.swift */,
+				0852549D29CCDBF30094F52B /* MyTableViewCell.swift */,
 				0852548D29CCD6D10094F52B /* ViewController.swift */,
 				0852548F29CCD6D10094F52B /* Main.storyboard */,
 				0852549229CCD6D30094F52B /* Assets.xcassets */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0852548E29CCD6D10094F52B /* ViewController.swift in Sources */,
+				0852549E29CCDBF30094F52B /* MyTableViewCell.swift in Sources */,
+				085254A229CCDFA30094F52B /* NewsData.swift in Sources */,
+				085254A029CCDD330094F52B /* ArticleData.swift in Sources */,
 				0852548A29CCD6D10094F52B /* AppDelegate.swift in Sources */,
 				0852548C29CCD6D10094F52B /* SceneDelegate.swift in Sources */,
 			);
